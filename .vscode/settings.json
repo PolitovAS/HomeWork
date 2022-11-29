@@ -1,0 +1,3 @@
+{
+    "terminal.integrated.tabs.description": "${cwd}${task}${separator}${local}${separator}${cwdFolder}"
+}
