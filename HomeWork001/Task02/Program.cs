@@ -13,11 +13,18 @@ string numsecond = Console.ReadLine() ?? "";
 int nfirst = Convert.ToInt32(numfirst);
 int nsecond = Convert.ToInt32(numsecond);
 
-if (nfirst > nsecond)
+if (nfirst != nsecond)
 {
-    Console.WriteLine($"{nfirst} - большее, {nsecond} - меньшее");
+    if (nfirst > nsecond)
+    {
+        Console.WriteLine($"{nfirst} - большее, {nsecond} - меньшее");
+    }
+    else
+    {
+        Console.WriteLine($"{nsecond} - большее, {nfirst} - меньшее");
+    }
 }
-else
+else 
 {
-    Console.WriteLine($"{nsecond} - большее, {nfirst} - меньшее");
+    Console.WriteLine($"{nsecond} и {nfirst} равны");
 }
