@@ -51,7 +51,7 @@ void PrintArray(int[] array)
     Console.WriteLine();
 }
 
-//найти количество четных чисел
+//найти сумму элементов на нечетных позициях
 int GetSummUneven(int[] array)
 {
     int summ = 0;
